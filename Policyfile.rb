@@ -14,3 +14,5 @@ run_list 'mangodb_new1::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'mangodb_new1', path: '.'
+
+cookbook 'apt', '= 2.6.1', :supermarket
